@@ -35,7 +35,7 @@ export default function Books() {
           <h4 className={styles.heading}>توانایی ها</h4>
           <div className={styles.abilities}>
             {abilities.map((ab) => (
-              <div className={styles.abilityRoot}>
+              <div key={ab.id} className={styles.abilityRoot}>
                 <p style={{ marginBottom: "-5px" }}>{ab.name}</p>
                 <div className={styles.ability}>
                   <div className={styles[`abilityValue${ab.name}`]}>
@@ -72,19 +72,26 @@ export default function Books() {
         <ul>
           <li>کار آموز در شرکت پارس ريز پرداز ۱۳۹۰-۱۳۹۳</li>
           <li>برنامه نويس در شرکت اندیشه نگار پارس ۱۳۹۴-۱۳۹۵</li>
-          <li>برنامه نویسی وب به عنوان فریلنسر ۱۳۹۸ تا الان</li>
+          <li> فریلنسري ۱۳۹۸ تا الان</li>
         </ul>
-        توی این دو ویدیو هم فیلم کوتاهی از نمونه کارهایی که انجام دادم رو نشون
+        نمونه کارهایی که انجام داده ام داخل لینک های زیر نشان داده شده است
         <ul>
           <li>
-            <a href="https://www.loom.com/share/a950be489b8d462888f1e5457e0a29a6">
+            <a href="https://www.loom.com/share/fea5085d864f42cea7b8ae949d908e14">
               {" "}
               ایجاد اینباکس برای شرکت resharmonic. (امکان فرستادن پیام هم و لود
               شدن پیام ها به صورت پیجینگ و .... )
             </a>
           </li>
-          <li>برنامه نويس در شرکت اندیشه نگار پارس ۱۳۹۴-۱۳۹۵</li>
-          <li>برنامه نویسی وب به عنوان فریلنسر ۱۳۹۸ تا الان</li>
+          <li>
+            <a href="https://www.loom.com/share/24698a9bcdbf436bbaa000878d92eceb">
+              {" "}
+              برنامه ای برای خط تولید شرکتی که به صورت آنلاین کاربرانش به آن
+              دسترسی دارند و می توانند کارهایی که انجام داده اند و کارهایی که
+              باید انجام دهند را مشاهده کنند. برنامه شامل پنل ادمین است که
+              کاربران را مدیریت یا خط تولیدی یا محصول جدیدی در سیستم تعریف کند
+            </a>
+          </li>
         </ul>
       </section>
     </Layout>

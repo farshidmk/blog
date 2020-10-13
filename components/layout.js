@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "فرشید منوچهری";
-export const siteTitle = "My Blog";
+export const siteTitle = "F.M.K";
 
 export default function Layout({ children, home }) {
   return (

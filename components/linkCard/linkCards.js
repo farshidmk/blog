@@ -1,7 +1,6 @@
 import LinkCard from "./linkCard";
 
-export default function LinkCards(props) {
-  console.log("propssss: ", props);
+export default function LinkCards() {
   return (
     <div
       style={{
@@ -17,10 +16,6 @@ export default function LinkCards(props) {
     </div>
   );
 }
-
-LinkCard.getInitialProps = () => {
-  return "123";
-};
 
 const cards = [
   {

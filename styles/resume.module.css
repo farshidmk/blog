@@ -1,0 +1,232 @@
+.pictureContainer {
+  display: flex;
+}
+@media only screen and (max-width: 870px) {
+  .pictureContainer {
+    display: none;
+  }
+}
+
+.image {
+  width: auto;
+  max-width: 300px;
+  max-height: 600px;
+  margin-bottom: -10px;
+}
+
+.heading {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.paragraph {
+  margin-top: 0px;
+}
+
+.link {
+  color: #424d8a;
+  font-weight: 600;
+}
+
+.abilities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.abilityRoot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ability {
+  background: rgb(63, 63, 63);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  margin: 8px;
+}
+
+/* react */
+
+.abilityValueReact {
+  animation: react 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes react {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+/* js */
+
+.abilityValueJs {
+  animation: js 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes js {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+/* typeScript */
+
+.abilityValueTypeScript {
+  animation: typeScript 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes typeScript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+/* materialUi */
+
+.abilityValueMaterialUi {
+  animation: materialUi 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes materialUi {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+/* nodeJs */
+
+.abilityValueNodeJs {
+  animation: nodeJs 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes nodeJs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+/* git */
+
+.abilityValueGit {
+  animation: git 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes git {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+/* htmlCss */
+
+.abilityValueHtmlCss {
+  animation: htmlCss 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes htmlCss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+/* nextJs */
+
+.abilityValueNextJs {
+  animation: nextJs 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes nextJs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
+}
+
+/* english */
+
+.abilityValueEnglish {
+  animation: english 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes english {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}

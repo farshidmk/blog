@@ -37,13 +37,7 @@ export default function Home({ allPostsData }) {
           بود) و چیزهای دیگه که فکر میکنم ارزش به اشتراک گذاشتن با بقیه رو داره
           رو قراره تو این وبلاگ بنویسم
         </p>
-        <p>
-          <a href="https://farshidmk.github.io/farshid/">
-            {" "}
-            این صفحه ی رزومه من&nbsp;
-          </a>
-          هستش. خیلی کامل و چشم نوازش نکردم ولی بهتر از صفحه خالیه!!
-        </p>
+
         {/* شبکه های اجتماعی
         linkedin
          */}
@@ -58,7 +52,8 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>آخرین نوشته ها</h2>
-        <div className={utilStyles.postsSection}>
+        <p style={{ color: "#808080" }}>خالیه. !!</p>
+        {/* <div className={utilStyles.postsSection}>
           {allPostsData.map(({ id, date, title, picture }) => (
             <Link key={id} as={`/posts/${id}`} href={`/posts/${id}`}>
               <div className={utilStyles.postCard}>
@@ -70,7 +65,7 @@ export default function Home({ allPostsData }) {
               </div>
             </Link>
           ))}
-        </div>
+        </div> */}
       </section>
     </Layout>
   );
