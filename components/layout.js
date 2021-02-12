@@ -12,6 +12,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.png" />
         <meta name="description" content="First blog with next.js" />
+        <meta name="keyword" content="فرشید منوچهری کلانتری" />
 
         <meta
           property="og:image"
