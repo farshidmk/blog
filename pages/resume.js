@@ -2,17 +2,18 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import styles from "../styles/resume.module.css";
 
-export default function Books() {
+export default function Resume() {
   const abilities = [
     { id: 1, name: "Js", percent: 80 },
     { id: 2, name: "React", percent: 70 },
     { id: 3, name: "TypeScript", percent: 40 },
     { id: 4, name: "MaterialUi", percent: 80 },
     { id: 5, name: "NodeJs", percent: 45 },
-    { id: 6, name: "Git", percent: 65 },
+    { id: 6, name: "Git", percent: 75 },
     { id: 7, name: "HtmlCss", percent: 75 },
     { id: 8, name: "NextJs", percent: 55 },
     { id: 9, name: "English", percent: 70 },
+    { id: 10, name: "VueJs", percent: 40 },
   ];
   return (
     <Layout>

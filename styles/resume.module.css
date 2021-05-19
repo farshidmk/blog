@@ -230,3 +230,21 @@
     width: 70%;
   }
 }
+
+.abilityValueVueJs {
+  animation: VueJs 3s normal forwards;
+  box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes VueJs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
